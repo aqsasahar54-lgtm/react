@@ -1,16 +1,9 @@
-import React from 'react'
-import Welcome from "./components/welcome"
 
-const name = "Aqsa"
-const age = 26
 
-const App = () => {
+function App ()  {
+  const name = "react"
   return (
-    <div>
-      <h1>My Name is {name}</h1>
-      <p>My age is {age}</p>
-      <Welcome/>
-    </div>
+    <h1>Aslamoalikum course name {name}</h1>
   )
 }
 
