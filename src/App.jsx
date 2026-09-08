@@ -1,10 +1,9 @@
 
 
 function App ()  {
-  const a = 10;
-  const b = 20;
+  const name = "react"
   return (
-    <h1>Total : {a+b}</h1>
+    <h1>Aslamoalikum course name {name}</h1>
   )
 }
 
