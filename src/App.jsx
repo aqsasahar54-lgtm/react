@@ -1,13 +1,13 @@
-import React from 'react'
 
-const name = "Aqsa"
-const age = 26
+// SX mein agar multiple elements return karne hon, to unko ek parent element ke andar rakhna hota hai.
+// jasy div ka ander din sb ka parent hy 
+function App ()  {
 
-const App = () => {
   return (
-    <div>
-      <h1>My Name is {name}</h1>
-      <p>My age is {age}</p>
+      <div>
+      <h1>My React App</h1>
+      <p>I'm learning JSX</p>
+      <button>Click Me</button>
     </div>
   )
 }
